@@ -51,7 +51,7 @@
 }
 
 @media all and (max-width: 999px) {
-    .banner{
+    .banner {
         background-position: center;
     }
 
@@ -78,7 +78,8 @@
 }
 
 @media all and (max-width:500px) {
-    .banner p{
-        font-size: 0.8rem;
+    .banner p {
+        margin: 1rem 0;
+        font-size: 1.1rem;
     }
 }
