@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+    font-size: 2rem;
+    background-color: transparent;
+    color: red;
+    position: absolute;
+    width: 100%;
+}
+
+.navBar .loginBtn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navBar a {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: red;
+    padding-right: 1rem;
+} */
+
+.rows {
+    margin: 1 rem;
+}
+
+.rows .movies {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.rows .movies::-webkit-scrollbar {
+    display: none;
+}
+
+.rows.bigger .movies img {
+    width: 150px;
+}
+
+.rows .movies img {
+    width: 100px;
+    margin: 5px;
+}

@@ -1,0 +1,51 @@
+.banner {
+    height: 100vh;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    color: #fff;
+}
+
+.banner-container {
+    width: 40vw;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    /* padding: 10px 0; */
+    margin-bottom: 1rem;
+}
+
+.banner p {
+    margin-top: 1rem;
+    /* padding: 1rem 0rem; */
+    font-size: 1.4rem;
+}
+
+/* 
+.banner a{
+    margin: 1px;
+} */
+
+.banner a.playBtn {
+    background-color: grey;
+    padding: 0.6rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+}
+
+.banner a.mylistBtn {
+    background-color: grey;
+    padding: 0.6rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+}
