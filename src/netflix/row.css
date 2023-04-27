@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* 
 .navBar {
     display: flex;
@@ -50,4 +51,11 @@
 .rows .movies img {
     width: 100px;
     margin: 5px;
+}
+
+
+@media all and (max-width:500px) {
+    .rows h1 {
+        font-size: 1.2rem;
+    }
 }

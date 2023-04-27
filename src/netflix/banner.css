@@ -49,3 +49,36 @@
     color: black;
     margin-left: 1rem;
 }
+
+@media all and (max-width: 999px) {
+    .banner{
+        background-position: center;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+
+    .banner p {
+        font-size: 1.1rem;
+    }
+
+
+    .banner a.playBtn {
+        padding: 0.3rem;
+        margin-right: 0.5rem;
+    }
+
+    .banner a.mylistBtn {
+        padding: 0.3rem;
+        margin-left: 0.5rem;
+    }
+}
+
+@media all and (max-width:500px) {
+    .banner p{
+        font-size: 0.8rem;
+    }
+}
